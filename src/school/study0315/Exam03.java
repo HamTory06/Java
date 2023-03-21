@@ -11,23 +11,15 @@ public class Exam03 {
 
         n = Integer.parseInt((in.readLine()));
 
-        int a[][] = new int[n][n];
-        //1
-        int sum = 0;
-        for(int i=0; i<n; i++){
-            sum++;
-            a[0][i] = sum;
-        }
-        //2
-//        for(int i=0; i<n-1; i++){
-//            sum++;
-//            a[i][0] = sum;
+//        int a[][] = new int[n][n];
+//        int sum02 = 1;
+//        for(int i=0; i<n; i++){
+//            a[0][i] = sum02++;
 //        }
-        for(int i=0; i<n; i++){
-            for(int j=0; j<n; j++){
-                System.out.print(a[i][j]);
-            }
-            System.out.println("");
-        }
+//        for(int i=0; i<n*2-2; i++){
+//            for(int j=0; j<n; j++){
+//                System.out.println(j);
+//            }
+//        }
     }
 }
