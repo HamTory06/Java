@@ -1,8 +1,7 @@
-package school.network.kr.hs.dgsw;
+package school.network.study0323;
 
 import java.io.IOException;
 import java.net.InetAddress;
-import java.net.UnknownHostException;
 
 public class InetAddressObject {
     public static void main(String[] args) {
