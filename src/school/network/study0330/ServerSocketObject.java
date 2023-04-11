@@ -1,6 +1,6 @@
 package school.network.study0330;
 
-import java.io.IOException;
+import java.io.*;
 import java.net.*;
 
 public class ServerSocketObject {
@@ -20,6 +20,18 @@ public class ServerSocketObject {
             System.out.println("Client 연결");
             System.out.println("접속 Client 주소: "+
                     socket.getInetAddress() + " : " + socket.getPort());
+
+
+            //Input
+            InputStream inputStream = socket.getInputStream();
+            BufferedInputStream bufferedInputStream = new BufferedInputStream(inputStream);
+            DataInputStream dataInputStream = new DataInputStream(bufferedInputStream);
+
+            //Output
+            OutputStream outputStream = socket.getOutputStream();
+            BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(outputStream);
+            DataOutputStream dataOutputStream = new DataOutputStream(bufferedOutputStream);
+
             socket.close();
             serverSocket.close();
         } catch (IOException e) {
