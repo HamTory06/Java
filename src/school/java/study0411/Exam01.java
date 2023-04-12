@@ -15,9 +15,9 @@ public class Exam01 {
         int a = 0;
         int number = 0;
 
-        char arrA[] = new char[100];
-        char arra[] = new char[100];
-        int arrNumber[] = new int[100];
+        char[] arrA = new char[100];
+        char[] arra = new char[100];
+        int[] arrNumber = new int[100];
         boolean isNumber = true;
         for(int i=0; i<value.length(); i++){
 //            if(value.charAt(i) >= '0' && value.charAt(i) <= '9'){
