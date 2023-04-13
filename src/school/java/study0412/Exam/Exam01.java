@@ -1,4 +1,4 @@
-package school.java.study0412;
+package school.java.study0412.Exam;
 
 public class Exam01 {
     public static void main(String[] args) {
