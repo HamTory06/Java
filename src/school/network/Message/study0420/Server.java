@@ -9,9 +9,9 @@ import java.util.Date;
 
 public class Server {
     public Server(int port) {
-        this.port = port;
-        this.simpleDateFormat = new SimpleDateFormat("HH:mm:ss"); // 시/분/초
-        this.clientThreads = new ArrayList<>();
+//        this.port = port;
+//        this.simpleDateFormat = new SimpleDateFormat("HH:mm:ss"); // 시/분/초
+//        this.clientThreads = new ArrayList<>();
     }
 
     public void start() {
@@ -55,7 +55,7 @@ public class Server {
 
     public static int uniqueId; //번호
 
-    private ArrayList<ClientThread> clientThreads;
+//    private ArrayList<ClientThread> clientThreads;
 
     private SimpleDateFormat simpleDateFormat;
 
