@@ -40,7 +40,7 @@ public class Exam01 {
             }
         }
         System.out.println("입력한 2진수 " + "[ " + num+ " ]");
-        System.out.println("변경한 10진수 " + "[ " + number02()+ " ]");
+//        System.out.println("변경한 10진수 " + "[ " + number02()+ " ]");
     }
 
 
