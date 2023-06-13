@@ -45,7 +45,7 @@ public class Main {
     }
 
     static int[] up(int[] random){
-        int stepping_Stone = 0;
+        int stepping_Stone;
         for(int i=0; i<random.length; i++){
             for(int j=0; j<random.length; j++){
                 if(random[i] > random[j]){
